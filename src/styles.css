@@ -35,3 +35,11 @@ section {
   justify-content: center;
   width: 120px;
 }
+
+img{
+  width: 150px;
+}
+
+example-card{
+  padding :50px
+}
