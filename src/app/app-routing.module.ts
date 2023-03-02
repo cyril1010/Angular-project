@@ -9,10 +9,9 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-        {path:'/home',component:HomeComponent },
-        {path:'/navbar',component: NavbarComponent},
-        {path:'/addproduct',component: AddproductComponent},
-        {path:'/login',component: LoginComponent},
+        {path:'',component:HomeComponent},
+        {path:'addproduct',component: AddproductComponent},
+        {path:'login',component: LoginComponent}
       ];
 
 @NgModule({

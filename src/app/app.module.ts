@@ -13,6 +13,11 @@ import { MatIconModule } from '@angular/material/icon'
 import {MatDividerModule} from '@angular/material/divider';
 import { HomeComponent } from './home/home.component';
 import { AddproductComponent } from './addproduct/addproduct.component';
+import {MatCardModule} from '@angular/material/card';
+
+import {MatGridListModule} from '@angular/material/grid-list';
+
+
 
 
 
@@ -31,8 +36,10 @@ import { AddproductComponent } from './addproduct/addproduct.component';
     MatSlideToggleModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatCardModule,
     MatIconModule,
     MatDividerModule,
+    MatGridListModule,
     MatMenuModule
   ],
   providers: [],
