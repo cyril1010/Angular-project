@@ -12,11 +12,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon'
 import {MatDividerModule} from '@angular/material/divider';
 import { HomeComponent } from './home/home.component';
-import { AddproductComponent } from './addproduct/addproduct.component';
+import {AddproductComponent} from './addproduct/addproduct.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -38,6 +39,7 @@ import {MatInputModule} from '@angular/material/input';
     MatToolbarModule,
     MatCardModule,
     MatFormFieldModule,
+    MatButtonModule,
     MatIconModule,
     MatDividerModule,
     MatGridListModule,
