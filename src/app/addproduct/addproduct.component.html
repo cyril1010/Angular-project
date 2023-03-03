@@ -2,31 +2,31 @@
   <p>
     <mat-form-field appearance="fill">
       <mat-label>Product ID</mat-label>
-      <input matInput placeholder="Product ID">
+      <input matInput placeholder="Product ID" [(ngModel)]="products.id" name="id" >
     </mat-form-field>
   </p>
 
   <p>
     <mat-form-field appearance="fill">
       <mat-label>Product Name</mat-label>
-      <input matInput placeholder="Product Name">
+      <input matInput placeholder="Product Name" [(ngModel)]="products.pname" name="name">
     </mat-form-field>
   </p>
   <p>
     <mat-form-field appearance="fill">
       <mat-label>Product Quantity</mat-label>
-      <input matInput placeholder="Product Quantity">
+      <input matInput placeholder="Product Quantity" [(ngModel)]="products.quantity" name="quantity">
     </mat-form-field>
   </p>
   <p>
     <mat-form-field appearance="fill">
       <mat-label>Product Price</mat-label>
-      <input matInput placeholder="Product Price">
+      <input matInput placeholder="Product Price" [(ngModel)]="products.price" name="price">
     </mat-form-field>
   </p>
   <section>
     <div class="example-button-row">
-      <button mat-stroked-button color="primary" mat-button aria-label="Example icon button with a open in new tab icon">Submit</button>
+      <button mat-stroked-button (click)="add()" color="primary" mat-button aria-label="Example icon button with a open in new tab icon">Submit</button>
     </div>
   </section>
 </div>

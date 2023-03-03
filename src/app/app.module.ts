@@ -18,6 +18,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import { HttpClient,HttpClientModule } from '@angular/common/http';
+import { ProductService } from './product.service';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -40,12 +43,14 @@ import {MatButtonModule} from '@angular/material/button';
     MatCardModule,
     MatFormFieldModule,
     MatButtonModule,
+    FormsModule,
     MatIconModule,
     MatDividerModule,
     MatGridListModule,
-    MatMenuModule
+    MatMenuModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
